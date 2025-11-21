@@ -1,103 +1,112 @@
-# README: Dashboard de Análise de RH (Performance Insights)
+📊 Dashboard de RH Insights & 🤖 Assistente de IA (Personal Analytics)
 
-Este projeto foi desenvolvido como um case prático para a empresa fictícia "RH Insights", com o objetivo de analisar indicadores de performance e rotatividade de colaboradores.
+Este projeto foi desenvolvido como um case prático para a empresa fictícia "RH Insights". Ele combina Business Intelligence (Power BI) com Inteligência Artificial Generativa (RAG) para diagnosticar problemas de performance e rotatividade, além de fornecer consultoria automatizada em tempo real.
 
-## 1. 🏢 Contexto e Objetivo
+1. 🏢 Contexto e Objetivo
 
-A RH Insights, uma empresa de médio porte, notou recentemente uma queda no desempenho médio e um aumento na rotatividade (turnover).
+A RH Insights, uma empresa de médio porte (~200 colaboradores), notou recentemente uma queda no desempenho médio e um aumento na rotatividade (turnover).
 
-O **objetivo principal** deste dashboard é fornecer ao time de RH uma ferramenta visual no Power BI para identificar as causas desses problemas. O painel deve ajudar a responder perguntas sobre desafios de desempenho, o perfil dos colaboradores e a relação entre tempo de casa e produtividade.
+O objetivo principal é fornecer ao time de RH:
 
-## 2. 📊 Fonte de Dados (Tabela Principal)
+Visualização: Um dashboard interativo para monitorar KPIs.
 
-O dashboard foi construído a partir de uma única tabela de fatos (`Principal`), que contém dados brutos, colunas calculadas e medidas.
+Consultoria Inteligente: Uma IA capaz de responder perguntas complexas, cruzar dados de gestores/custos e sugerir planos de ação baseados em dados.
 
-### Colunas de Dados Brutos
-* `ID_Colaborador`
-* `Nome`
-* `Departamento`
-* `Cargo`
-* `Data_Admissao`
-* `Data_Saida`
-* `Idade`
-* `Gênero`
-* `Status`
-* `Salário`
-* `Avaliação_Desempenho`
-* `Satisfação`
-* `Horas_Treinamento`
+2. 📊 Fonte de Dados (Estrutura)
 
-### Colunas/Grupos Calculados (Power Query / DAX)
-* `Tempo_Casa_Meses`
-* `Tempo_Casa_Trimestre`
-* `Tempo_Casa_Ano`
-* `Faixa de Idade` (Coluna DAX para agrupar idades textualmente)
-* `Idade (bins)` (Grupo numérico de idades)
+O projeto utiliza uma base de dados híbrida (Excel/CSV) processada tanto pelo Power BI quanto pela engine da IA.
 
-### Medidas Principais (DAX)
-* `Contagem Ativos`
-* `Contagem_Inativos`
-* `Taxa de TurnOver`
+Tabelas Principais
 
-## 3. 💡 Principais Respostas e Insights (Análise do Dashboard)
+Colaboradores: Dados individuais (Salário, Performance, Idade, Gênero, Tempo de Casa).
 
-O dashboard criado responde com sucesso à maioria das perguntas orientadoras do briefing.
+Departamentos: Dados gerenciais (Nome do Gestor, Budget/Custo Mensal, Headcount).
 
-### Visão Geral
+Métricas Calculadas
 
-* **Colaboradores Ativos:** A empresa possui **160** colaboradores ativos.
-* **Taxa de TurnOver:** A taxa de turnover atual é de **25,00%**.
+Taxa de TurnOver: $\approx 21,5\%$ (considerada alta).
 
-### Análise de Desempenho
+Desempenho Médio: 7.47 (Escala 0-10).
 
-* **Desempenho por Departamento:** O desempenho é muito similar entre as áreas, com **Tecnologia (7.7)** e **Vendas (7.7)** liderando, seguidas por **Operações (7.4)** e **Marketing (7.1)**.
-* **Tempo de Casa vs. Desempenho:** O desempenho não aumenta linearmente com o tempo de casa. O gráfico "Desempenho por Tempo de casa" mostra picos e vales, atingindo a máxima performance (7.70) em colaboradores com 7 anos de casa.
-* **Satisfação vs. Desempenho:** O gráfico "Correlação Satisfação e Desempenho" mostra que as duas métricas não andam sempre juntas. Há um ponto crítico no **Ano 2**, onde o desempenho atinge um pico (7.8), mas a satisfação cai para seu ponto mais baixo (6.7).
+Custo por Departamento: Mapeado para análise de eficiência.
 
-### Perfil dos Colaboradores
+3. 💡 Principais Respostas do Dashboard (Power BI)
 
-* **Distribuição (Gênero, Idade, Dept.):** Todos os perfis estão mapeados.
-    * **Gênero:** Há um equilíbrio (53,5% Feminino, 46,5% Masculino).
-    * **Departamento:** A distribuição é muito equilibrada (Marketing com 53, os demais com 51, 48 e 48).
-    * **Idade:** A faixa etária de "24 - 27" é a mais populosa.
+O painel visual respondeu às perguntas fundamentais do briefing:
 
-### Áreas de Risco (Turnover)
+Colaboradores Ativos: 169 colaboradores.
 
-* **Onde está o risco?** O gráfico "Taxa de TurnOver e Desempenho por Departamento" é o mais estratégico do painel.
-    * **Vendas e Tecnologia:** São as áreas mais críticas. Elas têm o **melhor desempenho** (7.66 e 7.73), mas também a **maior taxa de turnover** (ambas acima de 20%). Isso indica que a empresa pode estar perdendo seus melhores talentos.
-    * **Marketing e Operações:** Possuem um turnover baixo (abaixo de 15%), mas o Marketing também tem a pior média de desempenho (7.15).
+Desempenho por Departamento: Tecnologia lidera (7.51), enquanto Marketing tem o pior desempenho (7.37).
 
-## 4. 📈 Novas Perguntas Respondidas pelo Dashboard
+Curva de Performance: O pico de produtividade ocorre aos 7 anos de casa.
 
-Com base nos visuais criados, o dashboard agora pode responder a perguntas ainda mais profundas que não estavam no briefing original:
+Paradoxo da Satisfação: No Ano 2, o desempenho é alto, mas a satisfação cai drasticamente (Risco de burnout ou falta de reconhecimento).
 
-### Foco em Retenção e Risco
+Áreas de Risco:
 
-1.  **Risco de Fuga de Talentos:** Qual departamento apresenta a combinação mais perigosa de **alto desempenho** e **alto turnover**?
-    * *Resposta (no gráfico):* Tecnologia e Vendas.
+Risco de Fuga: Vendas e Tecnologia (Alto Desempenho + Alto Turnover).
 
-2.  **Risco de Estagnação:** Qual departamento apresenta a combinação de **baixo desempenho** e **baixo turnover** (sugerindo que colaboradores com performance mais baixa não estão saindo)?
-    * *Resposta (no gráfico):* Marketing.
+Risco de Eficiência: Marketing (Alto Custo + Baixo Desempenho).
 
-### Foco no Ciclo de Vida do Colaborador
+4. 🤖 O Assistente de IA (RAG Fusion & Personal Analytics)
 
-3.  **Pico de Performance:** Em qual ano de "tempo de casa" os colaboradores atingem seu pico de performance?
-    * *Resposta (no gráfico):* No Ano 2 (média 7.8) e novamente no Ano 7 (média 7.7).
+Para ir além dos gráficos estáticos, foi implementado um Agente de IA baseado em RAG (Retrieval-Augmented Generation).
 
-4.  **Vale da Insatisfação:** Em qual ano de "tempo de casa" a satisfação é mais baixa, mesmo com o desempenho em alta?
-    * *Resposta (no gráfico):* No Ano 2 (Satisfação 6.7 vs. Desempenho 7.8).
+🧠 O Que a IA Faz?
 
-### Foco no Perfil Demográfico
+Ela atua como um "Analista Sênior de RH". O usuário pode fazer perguntas em linguagem natural e a IA consulta os dados brutos, cruza informações de diferentes arquivos e gera respostas estratégicas.
 
-5.  **Perfil Etário:** A empresa tem uma força de trabalho predominantemente jovem ou mais experiente?
-    * *Resposta (no gráfico):* Jovem, com a faixa de "24 - 27" sendo a maior.
+🚀 Tecnologias Utilizadas
 
-6.  **Equilíbrio de Gênero:** A distribuição de gênero é equilibrada entre os 160 colaboradores ativos?
-    * *Resposta (no gráfico):* Sim (53,5% F vs. 46,5% M).
+LangChain: Orquestração do fluxo de pensamento da IA.
 
-## 5. 🚀 Próximos Passos (Análise de Cobertura)
+RAG Fusion / Multi-Query: A IA gera variações da pergunta do usuário para encontrar dados ocultos (ex: se você pergunta "demissões", ela busca também por "turnover" e "saídas").
 
-O dashboard atual cobriu quase todos os pontos do briefing, com uma exceção notável:
+ChromaDB: Banco de dados vetorial para armazenar a "memória" da IA.
 
-* **Impacto do Treinamento:** O dashboard **não responde** à pergunta: "Onde investir em treinamento poderia gerar mais impacto?". A coluna `Horas_Treinamento` não foi utilizada em nenhum gráfico.
-* **Sugestão:** Adicionar um gráfico de correlação (dispersão ou barras) que cruze `Horas_Treinamento` com `Avaliação_Desempenho` por departamento.
+Watchdog: Sistema de Auto-Treinamento. A IA monitora a pasta de dados; se um arquivo Excel for atualizado, a IA re-treina seu cérebro automaticamente em segundos.
+
+OpenAI GPT-4o-mini: O modelo de linguagem responsável pelo raciocínio final.
+
+🎯 Exemplos de Consultas Suportadas
+
+"Qual gestor tem a equipe mais cara e com menor desempenho?"
+"Analise o perfil demográfico de quem pediu demissão nos últimos 12 meses."
+"O que explica a correlação baixa entre satisfação e performance?"
+
+5. 📈 Novas Perguntas Respondidas (IA + BI)
+
+Com a união do Dashboard e da IA, conseguimos diagnósticos profundos:
+
+Auditoria de Gestão: Identificamos que a gestão de Rafael Costa (Marketing) necessita de intervenção, pois gerencia o maior orçamento da empresa com o menor retorno em desempenho.
+
+Benchmarking Interno: A IA sugere replicar as práticas de Tiago Ramos (Tecnologia), que mantém a maior equipe com o menor custo total e a maior nota de avaliação.
+
+Retenção de Talentos: O problema de turnover não é "limpeza de base". A empresa está perdendo Analistas Plenos com nota 7.54 (acima da média). É uma sangria de talentos.
+
+6. 🛠️ Como Executar o Projeto (IA)
+
+Para rodar o Assistente de IA na sua máquina:
+
+Pré-requisitos
+
+Python 3.9+
+
+Chave de API da OpenAI
+
+Passo a Passo
+
+Clone o repositório:
+
+git clone [https://github.com/dev-lucasteixeira/Human-resources-Project.git](https://github.com/dev-lucasteixeira/Human-resources-Project.git)
+
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+
+Configure as Credenciais:
+Crie um arquivo .env na raiz e adicione sua chave:
+
+OPENAI_API_KEY="sua-chave-aqui"
