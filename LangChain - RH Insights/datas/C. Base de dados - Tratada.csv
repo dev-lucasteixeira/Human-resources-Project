@@ -1,0 +1,201 @@
+ID_Colaborador,Nome,Departamento,Cargo,Data_Admissao,Data_Saida,Idade,Gênero,Salário,Avaliação_Desempenho,Satisfação,Horas_Treinamento,Tempo_Casa_Meses,Status
+101,Colaborador 1,Vendas,Coordenador,2019-04-02,2021-05-04,29,Masculino,5328,6.4,5.4,22,68,Inativo
+102,Colaborador 2,Tecnologia,Analista Jr,2018-05-11,2021-05-10,29,Masculino,7639,7.8,7.0,25,78,Inativo
+103,Colaborador 3,Marketing,Analista Pleno,2021-02-13,,22,Feminino,4807,8.1,6.2,9,45,Ativo
+104,Colaborador 4,Vendas,Analista Sr,2019-01-15,,33,Feminino,6317,7.8,7.8,19,70,Ativo
+105,Colaborador 5,Marketing,Analista Pleno,2021-04-15,,41,Feminino,6462,7.7,7.5,6,43,Ativo
+106,Colaborador 6,Operações,Analista Pleno,2020-08-11,,34,Feminino,5777,7.4,7.9,10,51,Ativo
+107,Colaborador 7,Marketing,Analista Jr,2020-12-29,,43,Masculino,8808,6.2,7.2,22,46,Ativo
+108,Colaborador 8,Marketing,Assistente,2022-04-04,,42,Masculino,9137,7.7,7.4,6,31,Ativo
+109,Colaborador 9,Tecnologia,Analista Sr,2022-07-02,,28,Masculino,8146,8.6,6.1,25,28,Ativo
+110,Colaborador 10,Tecnologia,Analista Pleno,2019-08-09,,29,Feminino,8098,7.6,7.6,18,63,Ativo
+111,Colaborador 11,Tecnologia,Coordenador,2019-07-21,,24,Feminino,3885,8.6,5.5,10,64,Ativo
+112,Colaborador 12,Vendas,Gerente,2022-04-26,,36,Masculino,7834,6.8,6.9,5,30,Ativo
+113,Colaborador 13,Marketing,Coordenador,2021-10-25,2023-08-01,27,Feminino,7216,6.0,7.5,13,36,Inativo
+114,Colaborador 14,Vendas,Coordenador,2021-05-07,,38,Masculino,8488,6.6,6.3,10,42,Ativo
+115,Colaborador 15,Vendas,Gerente,2023-06-25,2024-07-14,31,Masculino,5461,6.2,8.1,7,16,Inativo
+116,Colaborador 16,Marketing,Analista Pleno,2018-10-11,,39,Masculino,4530,6.4,6.7,22,73,Ativo
+117,Colaborador 17,Operações,Analista Sr,2020-05-17,,45,Masculino,9151,6.6,6.1,25,54,Ativo
+118,Colaborador 18,Marketing,Assistente,2019-05-11,,24,Feminino,6269,6.1,6.9,23,66,Ativo
+119,Colaborador 19,Marketing,Coordenador,2018-08-30,,23,Feminino,6206,6.2,5.8,20,75,Ativo
+120,Colaborador 20,Operações,Analista Sr,2023-04-21,,37,Masculino,6834,6.6,5.3,18,18,Ativo
+121,Colaborador 21,Tecnologia,Gerente,2023-03-28,,23,Masculino,9016,8.0,7.3,6,19,Ativo
+122,Colaborador 22,Tecnologia,Analista Jr,2019-03-24,,28,Feminino,7893,7.3,6.5,13,68,Ativo
+123,Colaborador 23,Vendas,Analista Jr,2022-12-21,,39,Feminino,4302,6.2,8.5,5,22,Ativo
+124,Colaborador 24,Tecnologia,Analista Pleno,2022-07-23,,28,Masculino,6785,8.7,5.6,5,27,Ativo
+125,Colaborador 25,Operações,Analista Jr,2021-03-14,,45,Feminino,8052,8.0,6.7,11,44,Ativo
+126,Colaborador 26,Marketing,Assistente,2018-09-07,,23,Feminino,3910,7.8,6.8,21,74,Ativo
+127,Colaborador 27,Marketing,Coordenador,2020-02-01,2021-01-05,43,Feminino,5426,7.2,8.3,23,57,Inativo
+128,Colaborador 28,Operações,Analista Jr,2018-12-02,,40,Masculino,8130,7.6,8.3,11,72,Ativo
+129,Colaborador 29,Tecnologia,Coordenador,2022-06-10,2023-10-30,36,Feminino,6090,8.8,8.3,5,29,Inativo
+130,Colaborador 30,Marketing,Analista Pleno,2018-10-28,,38,Masculino,5672,6.4,6.2,7,73,Ativo
+131,Colaborador 31,Vendas,Gerente,2019-10-09,,39,Masculino,9263,6.9,8.4,25,61,Ativo
+132,Colaborador 32,Marketing,Analista Pleno,2019-03-01,,26,Masculino,5666,6.3,5.4,22,69,Ativo
+133,Colaborador 33,Operações,Assistente,2020-05-12,,28,Feminino,9131,7.9,5.9,20,54,Ativo
+134,Colaborador 34,Marketing,Gerente,2022-10-01,,23,Masculino,3529,7.0,5.5,13,25,Ativo
+135,Colaborador 35,Vendas,Analista Pleno,2022-10-18,,25,Feminino,4116,8.8,7.4,9,24,Ativo
+136,Colaborador 36,Vendas,Analista Pleno,2022-10-27,2023-10-19,33,Masculino,3826,8.7,5.7,12,24,Inativo
+137,Colaborador 37,Vendas,Analista Jr,2019-09-26,,29,Masculino,4831,8.9,7.8,18,62,Ativo
+138,Colaborador 38,Tecnologia,Assistente,2022-08-14,,45,Masculino,5532,6.8,7.8,8,27,Ativo
+139,Colaborador 39,Vendas,Gerente,2020-06-30,2023-08-16,33,Feminino,6000,8.5,8.0,12,52,Inativo
+140,Colaborador 40,Operações,Assistente,2022-06-21,,24,Feminino,5786,7.1,6.8,22,28,Ativo
+141,Colaborador 41,Tecnologia,Coordenador,2020-12-05,2022-12-18,23,Feminino,4388,7.8,6.2,15,47,Inativo
+142,Colaborador 42,Marketing,Analista Pleno,2022-04-27,,28,Masculino,5586,6.1,6.5,21,30,Ativo
+143,Colaborador 43,Operações,Gerente,2018-10-14,,32,Masculino,8604,6.9,8.0,14,73,Ativo
+144,Colaborador 44,Marketing,Coordenador,2021-08-29,,31,Masculino,8041,6.4,6.5,17,38,Ativo
+145,Colaborador 45,Operações,Analista Sr,2022-07-22,,22,Masculino,5989,6.9,6.5,23,27,Ativo
+146,Colaborador 46,Vendas,Analista Pleno,2022-12-17,,38,Masculino,7376,8.4,8.4,10,22,Ativo
+147,Colaborador 47,Vendas,Assistente,2019-01-18,,29,Feminino,9011,6.9,7.8,9,70,Ativo
+148,Colaborador 48,Tecnologia,Analista Sr,2023-05-01,,24,Masculino,7230,7.2,7.2,11,18,Ativo
+149,Colaborador 49,Tecnologia,Assistente,2020-09-26,2021-04-25,25,Feminino,6982,6.7,7.8,21,49,Inativo
+150,Colaborador 50,Tecnologia,Coordenador,2019-05-13,,36,Masculino,8968,7.6,7.0,15,66,Ativo
+151,Colaborador 51,Operações,Coordenador,2023-01-01,,45,Masculino,7388,7.4,7.6,25,22,Ativo
+152,Colaborador 52,Vendas,Analista Jr,2020-09-06,,24,Feminino,9345,6.9,6.0,15,50,Ativo
+153,Colaborador 53,Tecnologia,Analista Sr,2020-08-05,,26,Feminino,9286,6.6,6.5,15,51,Ativo
+154,Colaborador 54,Tecnologia,Analista Sr,2020-04-27,,34,Feminino,8284,8.8,5.1,23,54,Ativo
+155,Colaborador 55,Marketing,Analista Sr,2021-12-11,,34,Feminino,6932,7.6,7.6,24,35,Ativo
+156,Colaborador 56,Marketing,Analista Sr,2021-01-22,,22,Feminino,6685,7.0,7.4,17,45,Ativo
+157,Colaborador 57,Marketing,Analista Sr,2023-12-28,2024-09-03,40,Feminino,8123,8.0,5.3,18,10,Inativo
+158,Colaborador 58,Operações,Analista Sr,2018-07-25,,32,Masculino,5233,7.4,6.2,17,76,Ativo
+159,Colaborador 59,Vendas,Gerente,2018-12-02,,45,Feminino,7918,6.2,8.3,12,72,Ativo
+160,Colaborador 60,Vendas,Coordenador,2018-05-08,,28,Feminino,3666,7.9,5.8,20,78,Ativo
+161,Colaborador 61,Marketing,Analista Pleno,2023-03-20,,33,Feminino,4874,7.8,8.4,8,19,Ativo
+162,Colaborador 62,Vendas,Coordenador,2018-04-16,,40,Feminino,9048,8.7,6.3,11,79,Ativo
+163,Colaborador 63,Vendas,Analista Pleno,2019-02-22,,31,Masculino,9105,7.8,5.4,23,69,Ativo
+164,Colaborador 64,Tecnologia,Analista Pleno,2022-02-26,2024-07-08,32,Masculino,3603,8.5,7.9,8,32,Inativo
+165,Colaborador 65,Tecnologia,Analista Sr,2019-09-19,,45,Masculino,7774,8.9,5.9,22,62,Ativo
+166,Colaborador 66,Tecnologia,Analista Pleno,2021-01-04,,29,Feminino,4209,6.8,6.6,19,46,Ativo
+167,Colaborador 67,Operações,Coordenador,2023-07-18,,27,Masculino,7494,6.6,7.8,15,15,Ativo
+168,Colaborador 68,Marketing,Gerente,2018-02-11,,28,Masculino,4201,6.7,6.4,22,81,Ativo
+169,Colaborador 69,Operações,Gerente,2023-07-04,,22,Masculino,4262,6.9,6.4,12,16,Ativo
+170,Colaborador 70,Tecnologia,Analista Pleno,2023-04-23,,33,Masculino,6985,9.0,6.9,16,18,Ativo
+171,Colaborador 71,Marketing,Analista Jr,2020-10-26,,45,Masculino,5077,6.9,7.6,10,48,Ativo
+172,Colaborador 72,Operações,Analista Jr,2021-02-06,,38,Masculino,8388,6.8,5.4,11,45,Ativo
+173,Colaborador 73,Operações,Gerente,2020-01-05,,44,Feminino,7875,6.4,5.2,6,58,Ativo
+174,Colaborador 74,Vendas,Analista Pleno,2023-07-04,2024-01-26,40,Masculino,5829,7.4,6.5,10,16,Inativo
+175,Colaborador 75,Marketing,Analista Jr,2019-04-13,,34,Masculino,7528,6.2,7.2,6,67,Ativo
+176,Colaborador 76,Marketing,Coordenador,2018-12-15,,25,Masculino,8071,8.3,7.1,24,71,Ativo
+177,Colaborador 77,Vendas,Coordenador,2023-01-20,,31,Feminino,8321,9.0,6.1,24,21,Ativo
+178,Colaborador 78,Vendas,Analista Jr,2020-05-01,,30,Feminino,8910,6.2,5.8,22,54,Ativo
+179,Colaborador 79,Tecnologia,Assistente,2022-08-01,,41,Feminino,7349,6.9,5.8,14,27,Ativo
+180,Colaborador 80,Vendas,Coordenador,2020-12-19,,42,Feminino,8331,8.0,8.3,18,47,Ativo
+181,Colaborador 81,Operações,Analista Sr,2019-09-03,,26,Feminino,4084,6.2,7.8,24,62,Ativo
+182,Colaborador 82,Tecnologia,Assistente,2023-04-04,,44,Feminino,6797,8.8,6.8,20,19,Ativo
+183,Colaborador 83,Vendas,Gerente,2022-11-05,,41,Masculino,5551,6.1,5.8,23,24,Ativo
+184,Colaborador 84,Marketing,Coordenador,2018-06-14,,27,Masculino,7354,7.6,6.5,13,77,Ativo
+185,Colaborador 85,Marketing,Analista Pleno,2023-07-08,,37,Masculino,6350,7.2,6.1,8,16,Ativo
+186,Colaborador 86,Operações,Assistente,2023-07-23,,34,Masculino,8006,6.1,5.3,13,15,Ativo
+187,Colaborador 87,Marketing,Coordenador,2023-10-09,,22,Masculino,8887,8.6,6.6,6,12,Ativo
+188,Colaborador 88,Tecnologia,Gerente,2023-08-04,,23,Masculino,5167,6.8,5.5,14,15,Ativo
+189,Colaborador 89,Tecnologia,Assistente,2019-05-13,2023-06-11,41,Feminino,5460,8.1,6.1,5,66,Inativo
+190,Colaborador 90,Operações,Analista Sr,2019-04-10,,25,Masculino,8806,8.5,6.7,14,67,Ativo
+191,Colaborador 91,Marketing,Assistente,2023-04-19,,39,Masculino,4684,7.2,8.2,21,18,Ativo
+192,Colaborador 92,Tecnologia,Analista Jr,2022-08-27,,38,Masculino,5688,8.5,6.0,14,26,Ativo
+193,Colaborador 93,Marketing,Coordenador,2023-06-07,,39,Masculino,7951,7.1,8.3,11,17,Ativo
+194,Colaborador 94,Tecnologia,Gerente,2020-08-14,,35,Feminino,3857,7.0,6.7,17,51,Ativo
+195,Colaborador 95,Tecnologia,Assistente,2023-07-22,,26,Masculino,7614,8.9,6.2,8,15,Ativo
+196,Colaborador 96,Operações,Coordenador,2018-03-04,,35,Masculino,8863,8.9,5.3,13,81,Ativo
+197,Colaborador 97,Vendas,Coordenador,2018-11-25,,43,Feminino,7871,7.1,6.1,20,72,Ativo
+198,Colaborador 98,Vendas,Analista Sr,2020-08-19,,31,Feminino,5363,8.2,6.5,8,51,Ativo
+199,Colaborador 99,Tecnologia,Analista Jr,2021-05-11,,23,Feminino,6157,8.4,6.0,16,42,Ativo
+200,Colaborador 100,Marketing,Analista Sr,2023-12-16,,43,Feminino,4975,6.5,5.3,17,10,Ativo
+201,Colaborador 101,Operações,Gerente,2020-08-09,,30,Feminino,7264,6.8,5.0,19,51,Ativo
+202,Colaborador 102,Tecnologia,Analista Pleno,2018-10-30,,33,Feminino,8313,6.9,8.4,13,73,Ativo
+203,Colaborador 103,Operações,Assistente,2022-04-25,,25,Masculino,5443,7.1,6.3,14,30,Ativo
+204,Colaborador 104,Operações,Analista Jr,2021-01-29,2021-11-25,41,Feminino,7569,8.5,8.2,12,45,Inativo
+205,Colaborador 105,Vendas,Analista Pleno,2020-10-23,,45,Masculino,8900,8.0,5.5,8,49,Ativo
+206,Colaborador 106,Marketing,Analista Jr,2018-05-17,,45,Feminino,4576,6.3,6.0,18,78,Ativo
+207,Colaborador 107,Operações,Gerente,2022-02-07,,30,Masculino,4847,6.8,7.9,20,33,Ativo
+208,Colaborador 108,Operações,Assistente,2019-04-17,,24,Masculino,4653,8.3,5.8,17,67,Ativo
+209,Colaborador 109,Tecnologia,Gerente,2018-02-27,,25,Masculino,7225,7.1,7.6,13,81,Ativo
+210,Colaborador 110,Marketing,Gerente,2019-03-20,,37,Feminino,3705,7.9,8.3,15,68,Ativo
+211,Colaborador 111,Operações,Analista Sr,2023-03-17,,31,Feminino,8818,7.2,5.5,6,19,Ativo
+212,Colaborador 112,Tecnologia,Coordenador,2019-02-03,,39,Feminino,4611,7.2,6.3,22,69,Ativo
+213,Colaborador 113,Operações,Analista Jr,2022-08-27,,37,Masculino,8543,7.2,8.3,6,26,Ativo
+214,Colaborador 114,Operações,Assistente,2022-12-27,,33,Masculino,4313,8.9,6.3,25,22,Ativo
+215,Colaborador 115,Vendas,Assistente,2021-02-04,2022-04-30,36,Masculino,4250,8.0,7.2,24,45,Inativo
+216,Colaborador 116,Marketing,Analista Jr,2020-09-24,,40,Masculino,5181,6.2,7.7,11,49,Ativo
+217,Colaborador 117,Operações,Analista Jr,2019-08-28,,41,Feminino,3523,6.8,8.4,9,63,Ativo
+218,Colaborador 118,Marketing,Gerente,2018-04-16,2022-11-08,29,Masculino,8323,7.0,5.6,6,79,Inativo
+219,Colaborador 119,Tecnologia,Coordenador,2023-11-25,2024-06-20,37,Feminino,7172,8.3,6.8,8,11,Inativo
+220,Colaborador 120,Vendas,Analista Sr,2018-06-27,,43,Masculino,7771,6.9,7.3,5,77,Ativo
+221,Colaborador 121,Operações,Coordenador,2022-10-13,,37,Feminino,9335,8.7,5.3,7,25,Ativo
+222,Colaborador 122,Operações,Analista Sr,2018-09-27,2022-10-14,42,Masculino,8295,7.6,6.1,24,74,Inativo
+223,Colaborador 123,Tecnologia,Analista Sr,2019-02-11,,25,Feminino,8863,8.0,7.7,11,69,Ativo
+224,Colaborador 124,Operações,Gerente,2022-08-22,,36,Masculino,6766,7.2,5.3,18,26,Ativo
+225,Colaborador 125,Tecnologia,Assistente,2022-03-14,,43,Masculino,7385,6.2,7.9,7,32,Ativo
+226,Colaborador 126,Operações,Gerente,2019-06-17,,40,Masculino,8100,7.7,7.3,18,65,Ativo
+227,Colaborador 127,Marketing,Gerente,2018-07-30,,41,Masculino,6059,7.1,7.0,11,76,Ativo
+228,Colaborador 128,Marketing,Analista Sr,2020-07-07,,33,Feminino,8056,7.1,7.7,23,52,Ativo
+229,Colaborador 129,Marketing,Coordenador,2020-12-31,2023-01-29,44,Masculino,6031,8.8,6.2,10,46,Inativo
+230,Colaborador 130,Tecnologia,Analista Pleno,2018-10-13,2022-11-17,22,Feminino,4251,8.2,5.8,18,73,Inativo
+231,Colaborador 131,Marketing,Coordenador,2022-02-24,,32,Feminino,8149,7.8,8.1,9,32,Ativo
+232,Colaborador 132,Marketing,Coordenador,2018-12-01,,43,Feminino,6973,7.5,6.5,13,72,Ativo
+233,Colaborador 133,Vendas,Analista Jr,2021-11-14,,31,Masculino,9055,8.0,6.7,14,36,Ativo
+234,Colaborador 134,Vendas,Analista Sr,2018-08-13,2020-11-07,28,Masculino,4624,8.3,6.0,8,75,Inativo
+235,Colaborador 135,Vendas,Analista Sr,2019-12-21,2023-07-03,44,Feminino,5385,7.5,7.9,16,59,Inativo
+236,Colaborador 136,Tecnologia,Analista Pleno,2022-11-22,2024-09-23,24,Feminino,6064,7.7,7.0,25,23,Inativo
+237,Colaborador 137,Vendas,Analista Sr,2022-07-18,2024-01-01,27,Feminino,8563,7.4,7.4,16,27,Inativo
+238,Colaborador 138,Marketing,Analista Pleno,2020-09-23,,34,Feminino,7792,6.2,8.0,15,50,Ativo
+239,Colaborador 139,Operações,Gerente,2018-11-09,,25,Feminino,7846,7.5,8.2,16,72,Ativo
+240,Colaborador 140,Vendas,Analista Jr,2020-08-25,2022-08-19,28,Masculino,4921,7.8,7.7,25,50,Inativo
+241,Colaborador 141,Operações,Gerente,2023-03-16,,40,Masculino,7177,8.0,8.1,25,19,Ativo
+242,Colaborador 142,Vendas,Analista Pleno,2019-09-11,,37,Feminino,7122,7.9,7.8,23,62,Ativo
+243,Colaborador 143,Vendas,Coordenador,2021-06-25,,23,Masculino,3966,7.1,6.0,25,40,Ativo
+244,Colaborador 144,Marketing,Analista Pleno,2023-03-11,,45,Masculino,3836,7.3,7.8,25,20,Ativo
+245,Colaborador 145,Marketing,Assistente,2023-08-16,2024-03-18,36,Feminino,4347,8.4,7.9,7,14,Inativo
+246,Colaborador 146,Tecnologia,Analista Sr,2022-11-29,,38,Masculino,7782,7.8,6.3,14,23,Ativo
+247,Colaborador 147,Operações,Analista Pleno,2018-08-03,,42,Feminino,6241,6.2,5.3,17,76,Ativo
+248,Colaborador 148,Marketing,Coordenador,2021-09-27,2024-02-23,26,Feminino,6365,6.9,7.3,17,37,Inativo
+249,Colaborador 149,Vendas,Gerente,2021-06-22,,42,Masculino,6190,8.4,7.3,21,40,Ativo
+250,Colaborador 150,Marketing,Analista Jr,2023-09-14,,33,Feminino,6030,6.5,5.7,20,13,Ativo
+251,Colaborador 151,Vendas,Gerente,2019-09-27,2024-09-14,25,Masculino,7658,8.3,7.9,21,62,Inativo
+252,Colaborador 152,Marketing,Gerente,2019-06-21,,26,Masculino,4829,6.5,7.4,24,65,Ativo
+253,Colaborador 153,Tecnologia,Analista Jr,2018-06-28,,43,Feminino,9394,6.7,6.6,14,77,Ativo
+254,Colaborador 154,Tecnologia,Analista Pleno,2021-06-21,,37,Masculino,5089,7.1,8.3,19,40,Ativo
+255,Colaborador 155,Vendas,Gerente,2023-08-22,,27,Masculino,5135,8.4,5.5,13,14,Ativo
+256,Colaborador 156,Vendas,Analista Jr,2022-03-01,,25,Masculino,9327,8.5,8.0,14,32,Ativo
+257,Colaborador 157,Operações,Assistente,2023-01-15,,26,Masculino,7083,6.3,8.2,19,21,Ativo
+258,Colaborador 158,Vendas,Analista Pleno,2018-08-07,,33,Feminino,5431,7.2,5.3,12,75,Ativo
+259,Colaborador 159,Tecnologia,Analista Sr,2021-10-05,,26,Feminino,3813,6.9,7.9,9,37,Ativo
+260,Colaborador 160,Vendas,Analista Pleno,2018-11-21,2020-08-23,26,Feminino,7995,8.8,7.1,18,72,Inativo
+261,Colaborador 161,Tecnologia,Coordenador,2021-05-18,2023-04-06,35,Feminino,8734,8.4,6.6,8,42,Inativo
+262,Colaborador 162,Marketing,Coordenador,2023-10-12,,44,Masculino,4676,6.9,5.0,16,12,Ativo
+263,Colaborador 163,Vendas,Analista Sr,2020-02-07,,24,Masculino,7788,8.9,5.2,21,57,Ativo
+264,Colaborador 164,Operações,Analista Jr,2018-06-28,,33,Feminino,5577,8.2,6.2,7,77,Ativo
+265,Colaborador 165,Tecnologia,Gerente,2021-09-23,2023-04-06,39,Feminino,6273,8.4,5.6,19,37,Inativo
+266,Colaborador 166,Vendas,Analista Pleno,2019-07-07,2024-05-30,36,Masculino,3802,6.9,5.2,11,64,Inativo
+267,Colaborador 167,Operações,Analista Pleno,2023-10-13,,39,Feminino,7378,6.8,7.6,11,12,Ativo
+268,Colaborador 168,Operações,Analista Jr,2021-09-21,,33,Masculino,7079,8.7,7.6,17,37,Ativo
+269,Colaborador 169,Tecnologia,Coordenador,2023-07-31,,38,Feminino,5684,8.4,7.5,7,15,Ativo
+270,Colaborador 170,Tecnologia,Analista Jr,2021-04-18,,24,Masculino,6186,8.0,6.1,24,43,Ativo
+271,Colaborador 171,Vendas,Assistente,2021-12-10,,45,Masculino,6388,7.8,6.5,25,35,Ativo
+272,Colaborador 172,Tecnologia,Assistente,2022-01-28,,45,Feminino,9065,6.5,5.1,24,33,Ativo
+273,Colaborador 173,Marketing,Gerente,2018-10-03,,42,Masculino,6500,7.1,8.3,6,74,Ativo
+274,Colaborador 174,Operações,Analista Jr,2022-02-28,,24,Feminino,8201,6.4,6.3,15,32,Ativo
+275,Colaborador 175,Operações,Gerente,2018-04-17,,37,Masculino,7741,7.2,7.0,13,79,Ativo
+276,Colaborador 176,Marketing,Assistente,2020-05-28,,31,Masculino,9185,8.7,6.7,8,53,Ativo
+277,Colaborador 177,Operações,Gerente,2019-12-09,,36,Feminino,4219,8.4,8.4,15,59,Ativo
+278,Colaborador 178,Operações,Coordenador,2021-04-04,,27,Feminino,9331,8.1,7.5,10,43,Ativo
+279,Colaborador 179,Operações,Analista Sr,2019-05-13,,26,Feminino,5439,8.4,5.1,22,66,Ativo
+280,Colaborador 180,Vendas,Analista Jr,2018-12-20,2021-09-30,44,Masculino,9388,7.4,6.4,18,71,Inativo
+281,Colaborador 181,Marketing,Analista Jr,2018-10-31,,43,Masculino,7738,7.0,8.1,22,73,Ativo
+282,Colaborador 182,Operações,Gerente,2023-08-22,,23,Feminino,4517,7.6,6.1,10,14,Ativo
+283,Colaborador 183,Operações,Analista Jr,2021-11-18,,38,Masculino,5826,8.5,5.9,25,35,Ativo
+284,Colaborador 184,Operações,Coordenador,2023-12-26,2024-08-03,40,Feminino,8256,6.5,7.3,24,10,Inativo
+285,Colaborador 185,Vendas,Analista Sr,2018-04-27,2021-11-01,42,Masculino,5226,8.3,6.5,25,79,Inativo
+286,Colaborador 186,Marketing,Analista Sr,2021-05-22,,43,Masculino,6826,6.9,5.3,6,41,Ativo
+287,Colaborador 187,Operações,Analista Sr,2023-06-07,,32,Feminino,8469,6.4,8.0,15,17,Ativo
+288,Colaborador 188,Marketing,Analista Jr,2022-02-26,,25,Feminino,6114,6.7,5.4,19,32,Ativo
+289,Colaborador 189,Operações,Coordenador,2018-07-27,,34,Masculino,8541,7.3,8.4,10,76,Ativo
+290,Colaborador 190,Vendas,Assistente,2020-02-17,,37,Masculino,7716,7.4,8.1,20,57,Ativo
+291,Colaborador 191,Tecnologia,Coordenador,2023-09-02,,29,Masculino,5262,7.8,5.2,14,14,Ativo
+292,Colaborador 192,Tecnologia,Analista Pleno,2021-03-16,,25,Feminino,7030,6.4,5.9,16,44,Ativo
+293,Colaborador 193,Tecnologia,Coordenador,2022-06-29,2024-08-12,28,Masculino,6469,7.7,5.3,21,28,Inativo
+294,Colaborador 194,Marketing,Analista Jr,2019-05-02,2020-06-03,34,Masculino,6557,8.4,6.2,16,67,Inativo
+295,Colaborador 195,Marketing,Coordenador,2023-08-11,2024-03-07,26,Feminino,9345,7.0,6.7,19,14,Inativo
+296,Colaborador 196,Operações,Coordenador,2021-09-05,,32,Masculino,4831,7.2,7.2,14,38,Ativo
+297,Colaborador 197,Operações,Gerente,2021-05-12,,22,Feminino,6517,7.0,5.4,18,42,Ativo
+298,Colaborador 198,Tecnologia,Analista Jr,2023-04-28,,42,Masculino,8238,7.7,7.5,23,18,Ativo
+299,Colaborador 199,Vendas,Analista Sr,2019-08-29,,29,Masculino,3758,7.7,7.5,11,63,Ativo
+300,Colaborador 200,Marketing,Coordenador,2022-09-12,2023-10-25,35,Feminino,7610,8.3,8.2,6,26,Inativo

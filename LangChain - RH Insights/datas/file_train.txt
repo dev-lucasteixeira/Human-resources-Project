@@ -1,0 +1,93 @@
+(DATA DE REFERÊNCIA: SETEMBRO/2024)
+
+1. CONTEXTO ORGANIZACIONAL (RH INSIGHTS)
+
+Variável Descrição/Valor
+Setor/Atuação Empresa de médio porte (~200 colaboradores no total histórico, ~169 ativos).
+Desafio Central Queda no desempenho médio e aumento na rotatividade (Turnover Voluntário).
+Estrutura 4 Departamentos principais com gestores definidos.
+Objetivo do RH Cruzar dados de desempenho, custo e retenção para tomadas de decisão gerenciais.
+
+2. DICIONÁRIO DE DADOS E VARIÁVEIS CHAVE
+
+A IA deve cruzar as colunas dos colaboradores com a tabela de departamentos:
+
+ID_Colaborador: Chave única.
+Departamento: Chave de ligação para Gestores e Centros de Custo.
+Gestor (Novo): Responsável pelo departamento (Vendas, Mkt, Ops, Tech).
+Custo_Médio_Mensal (Novo): Orçamento da folha do departamento.
+Cargo: Nível hierárquico (Jr, Pleno, Sr, Coord., Gerente, Assistente).
+Avaliação_Desempenho: (0-10). Meta aceitável > 7.0.
+Turnover: Indicador de saúde da gestão.
+
+3. CONCEITOS DE ANÁLISE AVANÇADA
+
+Eficiência Operacional: Relação entre o Custo do Departamento e a Entrega (Desempenho Médio). Departamentos caros com desempenho baixo são pontos críticos.
+Turnover por Gestão: Alta rotatividade em uma área específica pode indicar problemas de liderança, não apenas de mercado.
+Correlação de Pearson:
+0 a 0.3: Desprezível/Fraca.
+0.3 a 0.7: Moderada.
+0.7 a 1.0: Forte.
+
+4. RAIO-X DOS DEPARTAMENTOS (CRUZAMENTO DE DADOS)
+
+Esta seção consolida os dados dos arquivos de cada departamento com a tabela de gestores. Use estes dados para responder sobre áreas específicas.
+
+A. MARKETING
+Gestor: Rafael Costa
+Custo Médio Mensal: R$ 323.598 (O departamento mais caro da empresa).
+Qtd Colaboradores: 45
+Desempenho Médio: 7,37 (O pior desempenho da empresa).
+INSIGHT CRÍTICO: O Marketing representa o pior cenário de eficiência: possui o maior custo de folha e entrega a menor média de desempenho. A gestão de Rafael Costa deve ser prioridade na investigação do RH.
+
+B. VENDAS
+Gestora: Mariana Lopes
+Custo Médio Mensal: R$ 297.033
+Qtd Colaboradores: 40
+Desempenho Médio: 7,49
+INSIGHT: Área com desempenho mediano, mas alto impacto no negócio.
+
+C. OPERAÇÕES
+Gestora: Luciana Prado
+Custo Médio Mensal: R$ 287.750
+Qtd Colaboradores: 42
+Desempenho Médio: 7,50
+INSIGHT: Equilíbrio entre custo e entrega.
+
+D. TECNOLOGIA
+Gestor: Tiago Ramos
+Custo Médio Mensal: R$ 232.248 (Menor custo total).
+Qtd Colaboradores: 60 (Maior quadro de funcionários).
+Desempenho Médio: 7,51 (Melhor desempenho da empresa).
+INSIGHT POSITIVO: A área de Tiago Ramos é o modelo de eficiência: possui o maior time, o menor custo total (provavelmente muitos perfis Jr/Pleno) e entrega a maior nota de desempenho.
+
+5. ANÁLISE DE TURNOVER E PERFIL (GLOBAL)
+
+Taxa de Turnover (12 meses): ~21,5% (Crítico/Alto).
+Perfil de Quem Sai (Persona de Risco):
+Mulheres (52%).
+Analistas Plenos.
+Tempo de casa médio de 4 anos.
+Nota de Desempenho 7,54 (Acima da média da empresa).
+Conclusão: A empresa não está "limpando a base" (demitindo quem performa mal). Ela está sofrendo Sangria de Talentos (perdendo quem performa bem e já está treinado).
+
+6. CORRELAÇÕES E HIPÓTESES PARA IA
+
+Ao responder, utilize estas correlações calculadas:
+
+Satisfação x Desempenho (0,06 - Nula):
+Orientação: Não sugira "Aumentar a felicidade" como solução direta para produtividade. Sugira processos, ferramentas ou troca de liderança.
+
+Tempo de Casa x Desempenho (+0,15 - Fraca Positiva):
+Orientação: Reter funcionários por mais tempo ajuda levemente, mas não é o único fator.
+
+Custo do Depto x Desempenho (Inversa/Negativa):
+Orientação: O departamento que mais gasta (Marketing) é o que pior performa. Dinheiro/Salário alto não está se traduzindo em nota de avaliação nesta empresa.
+
+7. SUGESTÕES DE PERGUNTAS PARA O RH (NEXT STEPS)
+
+Se o usuário perguntar "O que devo fazer?", sugira:
+
+Auditoria no Marketing: "Investigar a gestão de Rafael Costa, dado que ele gerencia o maior orçamento com o menor retorno de desempenho."
+Plano de Retenção de Plenos: "Criar plano de carreira focado em Analistas Plenos com 3-4 anos de casa, pois são o maior grupo de evasão."
+Benchmarking com Tecnologia: "Entender o que o gestor Tiago Ramos faz na Tecnologia (maior time, menor custo, maior nota) e replicar nas outras áreas."
