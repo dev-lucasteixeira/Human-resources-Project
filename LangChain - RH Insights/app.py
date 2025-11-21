@@ -14,6 +14,7 @@ from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_core.load import dumps, loads
+from langchain_community.vectorstores.utils import filter_complex_metadata
 from langchain_community.document_loaders import (
     TextLoader,
     CSVLoader,
@@ -23,7 +24,8 @@ from langchain_community.document_loaders import (
 load_dotenv()
 
 #### 1. Indexing ####
-folder_path = "./datas"
+
+folder_path = "./LangChain - RH Insights\datas"
 
 LOADER_MAP = {
     ".txt": TextLoader,
@@ -59,8 +61,10 @@ for root, _, files in os.walk(folder_path):
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 all_splits = text_splitter.split_documents(documents)
 
+cleaned_splits = filter_complex_metadata(all_splits)
+
 vectorstore = Chroma.from_documents(
-    documents=all_splits,
+    documents=cleaned_splits,
     embedding=OpenAIEmbeddings(model="text-embedding-ada-002")
 )
 
